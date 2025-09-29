@@ -45,6 +45,12 @@ public class Arreglo {
        arrA[0] = 5;
        System.out.println(arrE[0]);
 
+       //arreglos de String
+       String[] arrWords={"e"};
+
+
+       //investigar el atributo length
+
    }
 
     public static void main(String[] args) {
