@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Arreglo {
 
    public void arreglos(){
@@ -33,8 +35,15 @@ public class Arreglo {
            System.out.println(num);
            i++;
        }
+        //para imprir todo el arra y metodo Array.toString
+       System.out.println(Arrays.toString(arrA));
 
-       System.out.println();
+       //declaro un arreglo pasando otro arreglo ya crado
+       //copia superficial
+       //solo se copia la referencia no el valor como tal
+       int[] arrE=arrA;
+       arrA[0] = 5;
+       System.out.println(arrE[0]);
 
    }
 
